@@ -33,3 +33,10 @@ while option == 1 or option == 2:
             decoded_char = str((int(char) + 10 - 3) % 10)
             decoded_password += decoded_char
         print(f"The encoded password is {ret} and the original password is {decoded_password}")
+
+    #added by Andres Rondon
+    decoded_password = ""
+    for char in password:
+        decoded_char = str((int(char) + 10 - 3) % 10)
+        decoded_password += decoded_char
+    print(f"The encoded password is {ret} and the original password is {decoded_password}")
